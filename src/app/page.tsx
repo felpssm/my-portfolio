@@ -1,18 +1,18 @@
-import Image from "next/image";
 import { Header } from './components/header/header'
+import "./styles/home.scss"
 
 export default function Home() {
   return (
 
-    <main>
-      <Header/>
+    <main className="container">
+      <Header />
       <div className="Experience">
         <h3>Experience</h3>
         <p>Texto for experience</p>
         <div className="experience-time">
 
         </div>
-        <div className="infos">
+        <div className="info">
           <h3>Languages</h3>
           <div className="language-infos">
             <span>🇺🇸 EN - Middleman</span>
@@ -20,8 +20,8 @@ export default function Home() {
           </div>
           <h3>Education</h3>
           <div className="educational-info">
-          <span>🎓</span>
-          <span> Systems analysis and development - Universidade Católica de Pelotas </span>
+            <span>🎓</span>
+            <span> Systems analysis and development - Universidade Católica de Pelotas </span>
           </div>
         </div>
         <div className="buttons">
