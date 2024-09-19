@@ -1,14 +1,14 @@
 :root {
   --text-primary: white;
-  --text-secondary: #b3b3b3;
-  --bg-primary: #2c2c2c;
+  --text-secondary: #B3B3B3;
+  --bg-primary: #2C2C2C;
 }
-  
-body {
+
+* {
   box-sizing: border-box;
-
+  padding: 0;
+  margin: 0;
 }
-
 
 html,
 body {
